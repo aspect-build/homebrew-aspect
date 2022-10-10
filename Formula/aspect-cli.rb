@@ -1,6 +1,7 @@
 class AspectCli < Formula
   desc "correct, fast, usable: choose three"
   homepage "https://aspect-build.github.io/aspect-cli"
+  # TODO(chuck): USE ACTUAL TAGGED RELEASE BEFORE MERGING
   # url "https://github.com/aspect-build/aspect-cli/archive/v0.11.0.tar.gz"
   # sha256 "836a6a5d94e6ae50a1a274b04f0b17125a9b843b19df010a502ef9bf7ddb679f"
   # url "https://github.com/aspect-build/aspect-cli/archive/0413f763438d027be9afc816e3c1929d39993ac5.tar.gz"
