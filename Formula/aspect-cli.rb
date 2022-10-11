@@ -9,7 +9,9 @@ class AspectCli < Formula
   # url "https://github.com/aspect-build/aspect-cli/archive/d611bbb696cedea7e1dcb5f02b957e8323469c8f.tar.gz"
   # sha256 "65d4ea42f91edd0a04a7da692479598345249ef415a8568e43f72e5ead4ebc67"
 
-  url "https://github.com/aspect-build/silo.git",
+  # url "https://github.com/aspect-build/silo.git",
+  url "git@github.com:aspect-build/silo.git",
+    using: :git,
     revision: "f4735da850fff0168001ac72fa1c0ab5e1fa8463"
 
   license "Apache-2.0"
@@ -20,7 +22,7 @@ class AspectCli < Formula
   depends_on "bazelisk" => :build
 
   def install
-    system "bazelisk", "run", "//cli/homebrew:collect", "--", "build_artifacts"
+    system "bazelisk", "run", "//cli/homebrew:collect", "--", buildpath/"build_artifacts"
     bin.install "build_artifacts/aspect" => "aspect"
   end
 
