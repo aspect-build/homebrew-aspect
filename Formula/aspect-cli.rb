@@ -1,5 +1,5 @@
 class AspectCli < Formula
-  desc "correct, fast, usable: choose three"
+  desc "Correct, fast, usable: choose three."
   homepage "https://aspect-build.github.io/aspect-cli"
   # TODO(chuck): USE ACTUAL TAGGED RELEASE BEFORE MERGING
   # url "https://github.com/aspect-build/aspect-cli/archive/v0.11.0.tar.gz"
@@ -11,13 +11,13 @@ class AspectCli < Formula
 
   # url "https://github.com/aspect-build/silo.git",
   url "git@github.com:aspect-build/silo.git",
-    using: :git,
-    revision: "f4735da850fff0168001ac72fa1c0ab5e1fa8463"
-
-  license "Apache-2.0"
+      using: :git,
+      revision: "f4735da850fff0168001ac72fa1c0ab5e1fa8463"
 
   # TODO(chuck): REMOVE THIS!
   version "0.0.0"
+
+  license "Apache-2.0"
 
   depends_on "bazelisk" => :build
 
@@ -28,7 +28,7 @@ class AspectCli < Formula
 
   test do
     (testpath/"WORKSPACE").write <<~EOS
-    workspace(name = "test_aspect_cli")
+      workspace(name = "test_aspect_cli")
     EOS
 
     assert_match "Aspect version: #{version}", shell_output("#{bin}/aspect version")
