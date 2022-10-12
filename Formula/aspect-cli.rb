@@ -1,5 +1,5 @@
 class AspectCli < Formula
-  desc "Correct, fast, usable: choose three."
+  desc "Correct, fast, usable: choose three"
   homepage "https://aspect-build.github.io/aspect-cli"
   # TODO(chuck): USE ACTUAL TAGGED RELEASE BEFORE MERGING
   # url "https://github.com/aspect-build/aspect-cli/archive/v0.11.0.tar.gz"
