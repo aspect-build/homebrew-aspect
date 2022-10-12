@@ -11,7 +11,7 @@ class AspectCli < Formula
 
   # url "https://github.com/aspect-build/silo.git",
   url "git@github.com:aspect-build/silo.git",
-      using: :git,
+      using:    :git,
       revision: "f4735da850fff0168001ac72fa1c0ab5e1fa8463"
 
   # TODO(chuck): REMOVE THIS!
