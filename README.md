@@ -27,3 +27,5 @@ git add .
 git commit -m "Update brew formulas for aspect & aspect-pro vx.x.x"
 gh pr create
 ```
+
+Once the update commit is landed on `main`, the release will be available to users.
