@@ -1,6 +1,6 @@
 # Aspect-build Aspect
 
-Hombrew tap for Aspect software.
+Homebrew tap for Aspect software.
 
 ## How do I install these formulae?
 
