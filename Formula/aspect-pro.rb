@@ -2,15 +2,15 @@ class AspectPro < Formula
   desc "Correct, fast, usable: choose three"
   homepage "https://aspect.build/cli"
   url "https://github.com/aspect-build/aspect-cli"
-  version "5.0.2"
+  version "5.0.3"
   license "https://aspect.build/communitylicense"
   bottle do
-    root_url "https://static.aspect.build/aspect/5.0.2"
-    sha256 cellar: :any_skip_relocation, monterey: "7e9ad4d6ab94395e21add3705ff2327c4736aaea0ab9c916b41d9fd772862a82"
-    sha256 cellar: :any_skip_relocation, arm64_monterey: "5990a05745201e5cf3efefca9a009f1c71392ed61573ca02c44777f39dd0f5f0"
-    sha256 cellar: :any_skip_relocation, big_sur: "6bcab15ebb4bfb27a66ab2c5b0e05fb34de344e725a248fc3f643e21ae0f798e"
-    sha256 cellar: :any_skip_relocation, arm64_big_sur: "dc462a2104dabaa471deab7edac94a16eab1b1c6be697a45168fccff0c594e98"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "e561f4ee9ac6f3ef99ab0b24779bc0bd2b5f0a37ac726c0f5a856eb89b0531e2"
+    root_url "https://static.aspect.build/aspect/5.0.3"
+    sha256 cellar: :any_skip_relocation, monterey: "821cff1e123f66daed553d4d38f2f62edad86898274cd63489e37961225b52c7"
+    sha256 cellar: :any_skip_relocation, arm64_monterey: "b54a655f2934a22326a8c0faf3ab9aca60d1b1c782634a21cebf5a622a668663"
+    sha256 cellar: :any_skip_relocation, big_sur: "300964a3b352de5aebf6d15b90fb70f4413bdcf4c0dd31fbbc7680254a03ed62"
+    sha256 cellar: :any_skip_relocation, arm64_big_sur: "a731aa8a2be0a3512d77a6aa740ef86c8af5ed9bf9a62723bf1b065e06f6db9f"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "418b9c271551d0c139adc52f5408589ead04705a704de62d6a5b85941e766ca8"
   end
 
   conflicts_with "bazel", because: "aspect replaces the bazel binary"
