@@ -2,11 +2,11 @@
 
 Homebrew tap for Aspect software.
 
-## How do I install these formulae?
+## How do I install the Aspect CLI?
 
-`brew install aspect-build/aspect/<formula>`
+`brew install aspect-build/aspect/aspect`
 
-Or `brew tap aspect-build/aspect` and then `brew install <formula>`.
+Or `brew tap aspect-build/aspect` and then `brew install aspect`.
 
 ## Documentation
 
@@ -24,7 +24,7 @@ then create a PR to commit the latest versions to the repository,
 
 ```
 git add .
-git commit -m "Update brew formulas for aspect & aspect-pro vx.x.x"
+git commit -m "Update brew formulas for aspect vx.x.x"
 gh pr create
 ```
 
