@@ -31,12 +31,8 @@ jobs:
 
       - run: brew test-bot --only-setup
 
-      # Will fail with:
-      # ```
-      # Formula aspect-cli-pro contains non-standard SPDX licenses: ["https://www.aspect.build/communitylicense"].
-      # For a list of valid licenses check: https://spdx.org/licenses/
-      # ```
-      # since we don't use an SPDX license on the Aspect CLI Pro
+      # Fails on some formatting & a missing stable checksum
+      # TODO: re-enable this test in the future
       # - run: brew test-bot --only-tap-syntax
 
       - run: brew test-bot --only-formulae
