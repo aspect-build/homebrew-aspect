@@ -5,4 +5,4 @@ version="$1"
 
 formula="https://github.com/aspect-build/aspect-cli/releases/download/$version/aspect_brew_artifacts.rb"
 
-wget "$oss_formula" -O Formula/aspect.rb
+wget "$formula" -O Formula/aspect.rb
