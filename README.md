@@ -24,7 +24,7 @@ then create a PR to commit the latest versions to the repository,
 
 ```
 git add .
-git commit -m "Update brew formulas for aspect vx.x.x"
+git commit -m "Update brew formulas for Aspect CLI x.x.x"
 gh pr create
 ```
 
