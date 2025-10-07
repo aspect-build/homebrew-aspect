@@ -14,6 +14,8 @@ Or `brew tap aspect-build/aspect` and then `brew install aspect`.
 
 ## Updating Formulas to the latest release
 
+Lookup the latest release version from https://github.com/aspect-build/aspect-cli/releases.
+
 To update the Formulas to the latest release run,
 
 ```
