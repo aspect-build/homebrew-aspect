@@ -4,9 +4,9 @@ Homebrew tap for Aspect software.
 
 ## How do I install the Aspect CLI?
 
-`brew install aspect-build/aspect/aspect`
+`brew install aspect-build/aspect/aspect-legacy`
 
-Or `brew tap aspect-build/aspect` and then `brew install aspect`.
+Or `brew tap aspect-build/aspect` and then `brew install aspect-legacy`.
 
 ## Documentation
 
@@ -14,7 +14,7 @@ Or `brew tap aspect-build/aspect` and then `brew install aspect`.
 
 ## Updating Formulas to the latest release
 
-Lookup the latest release version from https://github.com/aspect-build/aspect-cli/releases.
+Lookup the latest release version from https://github.com/aspect-build/aspect-cli-legacy/releases.
 
 To update the Formulas to the latest release run,
 
