@@ -1,4 +1,4 @@
-class Aspect < Formula
+class AspectLegacy < Formula
   desc "Correct, fast, usable: choose three"
   homepage "https://aspect.build"
   url "https://github.com/aspect-build"
