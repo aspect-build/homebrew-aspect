@@ -4,9 +4,9 @@ Homebrew tap for Aspect software.
 
 ## How do I install the Aspect CLI?
 
-`brew install aspect-build/aspect/aspect-legacy`
+`brew install aspect-build/aspect/aspect`
 
-Or `brew tap aspect-build/aspect` and then `brew install aspect-legacy`.
+Or `brew tap aspect-build/aspect` and then `brew install aspect`.
 
 ## Documentation
 
@@ -14,19 +14,19 @@ Or `brew tap aspect-build/aspect` and then `brew install aspect-legacy`.
 
 ## Updating Formulas to the latest release
 
-Lookup the latest release version from https://github.com/aspect-build/aspect-cli-legacy/releases.
+Lookup the latest release version from https://github.com/aspect-build/aspect-cli/releases.
 
 To update the Formulas to the latest release run,
 
 ```
-./scripts/update-formulas.sh x.x.x
+./scripts/update-formula.sh vx.x.x
 ```
 
 then create a PR to commit the latest versions to the repository,
 
 ```
 git add .
-git commit -m "Update brew formulas for Aspect CLI x.x.x"
+git commit -m "Update brew formulas for Aspect CLI vx.x.x"
 gh pr create
 ```
 
